@@ -16,7 +16,7 @@ export const Messages = ({ messages }: MessagesProps) => {
       ) : (
         <div className="flex-1 flex flex-col items-center justify-center gap-2">
           <MessageSquare className="size-8 text-orange-500" />
-          <h3 className="font-semibold text-xl text-gray-900">You're all set!</h3>
+          <h3 className="font-semibold text-xl text-gray-900">You&apos;re all set!</h3>
           <p className="text-gray-500 text-sm">Ask your first question to get started.</p>
         </div>
       )}
